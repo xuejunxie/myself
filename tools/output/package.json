@@ -30,7 +30,7 @@
     "sass": "^1.69.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "run-os",
     "start:win32": "set HTTPS=true&&set PUBLIC_URL=/&&react-scripts start",
     "start:default": "HTTPS=true PUBLIC_URL=/ react-scripts start",
     "postinstall": "run-os",
